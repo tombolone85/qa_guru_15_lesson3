@@ -1,14 +1,11 @@
 package com.demoqa;
-
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.io.File;
-
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -25,11 +22,11 @@ public class DemoQACheck {
     public static void Configuration() {
         Configuration.browserSize="1920x1080";
         Configuration.holdBrowserOpen=true;
+        open("https://demoqa.com/automation-practice-form");
     }
 
     @BeforeEach
     void pageFillIn(){
-        open("https://demoqa.com/automation-practice-form");
         $("#firstName").setValue(firstName);
         $("#lastName").setValue(lastName);
         $("#userEmail").setValue(email);
