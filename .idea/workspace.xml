@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="the second commit according to the remarks">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lessonFour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,14 @@
       <recent name="C:\Users\tombo\IdeaProjects\qa_guru_15\qa_guru_15_lesson3\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DemoQACheck">
+  <component name="RunManager" selected="Application.lessonFour">
+    <configuration name="lessonFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessonFour" />
+      <module name="qa_guru_15_lesson3.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoQACheck" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lessonFour" />
         <item itemvalue="Gradle.DemoQACheck" />
         <item itemvalue="Gradle.DemoQACheck.pageCheck" />
         <item itemvalue="Gradle.DemoQACheck.tableCheck" />
