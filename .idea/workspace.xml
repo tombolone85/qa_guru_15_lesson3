@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="the second commit according to the remarks">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonFour.java" afterDir="false" />
+    <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="lesson 4 homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qa_guru_15_lesson3" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,9 +70,9 @@
       <recent name="C:\Users\tombo\IdeaProjects\qa_guru_15\qa_guru_15_lesson3\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lessonFour">
-    <configuration name="lessonFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessonFour" />
+  <component name="RunManager" selected="Application.LessonFour">
+    <configuration name="LessonFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonFour" />
       <module name="qa_guru_15_lesson3.test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,7 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lessonFour" />
+        <item itemvalue="Application.LessonFour" />
         <item itemvalue="Gradle.DemoQACheck" />
         <item itemvalue="Gradle.DemoQACheck.pageCheck" />
         <item itemvalue="Gradle.DemoQACheck.tableCheck" />
@@ -153,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663476795608</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson 4 homework">
+      <created>1663952940712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663952940712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +195,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="the second commit according to the remarks" />
-    <option name="LAST_COMMIT_MESSAGE" value="the second commit according to the remarks" />
+    <MESSAGE value="lesson 4 homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 4 homework" />
   </component>
 </project>
