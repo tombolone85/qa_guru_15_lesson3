@@ -4,6 +4,7 @@ import com.codeborne.selenide.Configuration;
 import com.demoqa.pages.RegistrationFormPage;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class DemoQACheck {
@@ -22,7 +23,7 @@ public class DemoQACheck {
         Configuration.holdBrowserOpen=true;
     }
 
-    @Test
+    @BeforeEach
     void pageFillIn(){
         registrationFormPage.openPage()
                 .setFirstName(firstName)
@@ -38,8 +39,8 @@ public class DemoQACheck {
                 .setState("Haryana")
                 .setCity("Panipat")
                 .clickSubmit();
-}
-
+    }
+    @Test
     void tableCheck(){
         registrationFormPage.modalTableIsVisible()
             .checkTableContent("Student Name",studentName)
