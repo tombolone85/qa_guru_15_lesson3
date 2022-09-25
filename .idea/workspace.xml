@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="lesson 4 homework - class name refactored, class moved to src/main/java since it's not a test one">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/RegistrationFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/components/ModalTableComponent.java" afterDir="false" />
+    <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="lesson 5 homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/DemoQACheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/DemoQACheck.java" afterDir="false" />
     </list>
@@ -198,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664013748602</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lesson 5 homework">
+      <created>1664112966942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664112966942</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +219,7 @@
     <MESSAGE value="the second commit according to the remarks" />
     <MESSAGE value="lesson 4 homework" />
     <MESSAGE value="lesson 4 homework - class name refactored, class moved to src/main/java since it's not a test one" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 4 homework - class name refactored, class moved to src/main/java since it's not a test one" />
+    <MESSAGE value="lesson 5 homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 5 homework" />
   </component>
 </project>
