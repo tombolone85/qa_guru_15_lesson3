@@ -3,6 +3,8 @@ package com.demoqa;
 import com.demoqa.pages.RegistrationFormPage;
 import org.junit.jupiter.api.Test;
 
+import static io.qameta.allure.Allure.step;
+
 public class DemoQACheck extends TestBase{
 
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
@@ -10,6 +12,7 @@ public class DemoQACheck extends TestBase{
 
     @Test
     void pageFillIn(){
+        step("Filling in the form", ()->{
         registrationFormPage.openPage()
                 .setFirstName(testData.firstName)
                 .setLastName(testData.lastName)
@@ -23,19 +26,20 @@ public class DemoQACheck extends TestBase{
                 .setAddress(testData.address)
                 .setState(testData.state)
                 .setCity(testData.city)
-                .clickSubmit();
+                .clickSubmit();});
 
-            registrationFormPage.modalTableIsVisible()
-                    .checkTableContent("Student Name",testData.studentName)
-                    .checkTableContent("Student Email",testData.email)
-                    .checkTableContent("Gender", testData.gender)
-                    .checkTableContent("Mobile",testData.mobile)
-                    .checkTableContent("Date of Birth",testData.birthday)
-                    .checkTableContent("Subjects",testData.subject)
-                    .checkTableContent("Hobbies",testData.hobby)
-                    .checkTableContent("Picture",testData.fileName)
-                    .checkTableContent("Address",testData.address)
-                    .checkTableContent("State and City",testData.stateAndCity);
+            step("Checking the result table",()-> {
+                registrationFormPage.modalTableIsVisible()
+                        .checkTableContent("Student Name", testData.studentName)
+                        .checkTableContent("Student Email", testData.email)
+                        .checkTableContent("Gender", testData.gender)
+                        .checkTableContent("Mobile", testData.mobile)
+                        .checkTableContent("Date of Birth", testData.birthday)
+                        .checkTableContent("Subjects", testData.subject)
+                        .checkTableContent("Hobbies", testData.hobby)
+                        .checkTableContent("Picture", testData.fileName)
+                        .checkTableContent("Address", testData.address)
+                        .checkTableContent("State and City", testData.stateAndCity);
 
-    }
-}
+
+    });}}
