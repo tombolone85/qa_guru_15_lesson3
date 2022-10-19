@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase" />
+    <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase - resolution increased" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666141469418</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase - resolution increased">
+      <created>1666141921109</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666141921109</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +297,8 @@
     <MESSAGE value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes" />
     <MESSAGE value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results" />
     <MESSAGE value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase" />
+    <MESSAGE value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase - resolution increased" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase - resolution increased" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
