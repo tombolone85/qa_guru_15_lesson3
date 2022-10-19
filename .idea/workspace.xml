@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665898966344</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase">
+      <created>1666141469418</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666141469418</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,7 +289,8 @@
     <MESSAGE value="lesson 6 homework - all values to be inputted and checked is transferred to variables" />
     <MESSAGE value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes" />
     <MESSAGE value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results" />
+    <MESSAGE value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
