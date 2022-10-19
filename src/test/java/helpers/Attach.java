@@ -21,11 +21,13 @@ public class Attach {
         return getWebDriver().getPageSource().getBytes(StandardCharsets.UTF_8);
     }
     @Attachment(value = "{attachName}", type = "text/plain")
-    public static String attachAsText(String attachName, String message, List<String> webDriverLogs){
+    public static String attachAsText(String attachName, String message){
         return message;
     }
 
     public static void browserConsoleLogs(){
-        attachAsText("Browser console logs",String.join("\n"), Selenide.getWebDriverLogs(BROWSER));
+        attachAsText(
+                "Browser console logs",
+                String.join("\n", Selenide.getWebDriverLogs(BROWSER)));
     }
 }
