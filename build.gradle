@@ -1,5 +1,15 @@
 plugins {
     id 'java'
+    id 'io.qameta.allure' version '2.10.0'
+}
+
+allure{
+    report{version.set("2.19.0")}
+    adapter{aspectjWeaver.set(true)
+    frameworks{junit5{adapterVersion.set("2.19.0")
+    }
+    }
+    }
 }
 
 group 'org.example'
@@ -10,9 +20,13 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testImplementation('com.codeborne:selenide:6.7.4')
-    testImplementation('com.github.javafaker:javafaker:1.0.2')
+    testImplementation (
+            'org.junit.jupiter:junit-jupiter-api:5.8.1',
+            'com.codeborne:selenide:6.7.4',
+            'com.github.javafaker:javafaker:1.0.2',
+            'io.qameta.allure:allure-selenide:2.19.0'
+    )
+
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
 
