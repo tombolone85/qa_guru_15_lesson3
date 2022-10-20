@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase - resolution increased - allure-results renamed" />
+    <list default="true" id="b6ff7b69-433e-457d-b0f2-4ec041dab5a5" name="Changes" comment="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase - resolution increased - allure-results renamed">
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666268567853</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase - resolution increased - allure-results renamed">
+      <created>1666268792731</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666268792731</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lesson 6 homework - all values to be inputted and checked is transferred to variables - split to different classes - allure-results - corrected TestBase - resolution increased - allure-results renamed">
+      <created>1666268986968</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666268986968</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

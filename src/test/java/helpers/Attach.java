@@ -36,7 +36,7 @@ public class Attach {
 
     @Attachment(value = "video",type = "text/html", fileExtension = ".html")
     public static String addVideo(){
-        return "<html><body><video width='100%' controls autoply><source src=>"+getVideoURL()+"' type='video/mp4'></video></body></html>";
+        return "<html><body><video width='100%' controls autoplay><source src=>"+getVideoURL()+"' type='video/mp4'></video></body></html>";
     }
 
     public static URL getVideoURL(){
