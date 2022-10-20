@@ -12,8 +12,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.URI;
 
 import static io.qameta.allure.internal.shadowed.jackson.databind.type.LogicalType.Map;
-import static java.lang.constant.ClassDesc.of;
-
 public class TestBase {
     @BeforeAll
     public static void configuration() {
@@ -24,7 +22,7 @@ public class TestBase {
 //        capabilities.setCapability("browserVersion","100.0");
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo",true);
-        
+
         Configuration.browserCapabilities =capabilities;
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         Configuration.browserSize="5760x3240";
