@@ -31,6 +31,8 @@ public class TestBase {
     }
     @AfterEach
     void addAttachments(){
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        Configuration.browserCapabilities =capabilities;
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
