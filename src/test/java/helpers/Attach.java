@@ -34,9 +34,11 @@ public class Attach {
                 String.join("\n", Selenide.getWebDriverLogs(BROWSER)));
     }
 
-    @Attachment(value = "video",type = "text/html", fileExtension = ".html")
-    public static String addVideo(){
-        return "<html><body><video width='100%' height='100%' controls autoplay><source src=>"+getVideoURL()+"' type='video/mp4'></video></body></html>";
+    @Attachment(value = "Video", type = "text/html", fileExtension = ".html")
+    public static String addVideo() {
+        return "<html><body><video width='100%' height='100%' controls autoplay><source src='"
+                + getVideoURL()
+                + "' type='video/mp4'></video></body></html>";
     }
 
     public static URL getVideoURL(){
